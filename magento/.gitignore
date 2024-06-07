@@ -1,0 +1,43 @@
+# Magento generated files
+/generated/
+/pub/static/
+/var/
+!pub/static/.htaccess
+!/var/.htaccess
+
+# Magento 2 Composer dependencies
+/vendor/
+
+# Magento 2 specific files
+/app/etc/config.php
+/app/etc/env.php
+
+# Magento 2 Xdebug session
+/.vagrant/
+/.ide/
+
+# Magento 2 caches
+/.cache/
+/.php_cs.cache
+
+# Deployment specific
+/deploy/
+
+# PHPUnit
+/.phpunit.result.cache
+
+# Node.js dependencies
+/node_modules/
+
+# Nginx logs
+/logs/
+/*.log
+
+# IDE specific files
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
